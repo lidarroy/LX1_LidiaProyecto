@@ -1,0 +1,12 @@
+show databases;
+show lidiadb;
+show databases lidiadb;
+drop lidia1db;
+CREATE DATABASE drupal;
+CREATE USER drupalu@localhost IDENTIFIED BY "toor";
+CREATE DATABASE drupaldb;
+CREATE USER drupalu@localhost IDENTIFIED BY "toor";
+CREATE USER drupaldb@localhost IDENTIFIED BY "toor";
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER,CREATE TEMPORARY TABLES,LOCK TABLES ON drupaldb.* TO drupaldb@localhost;
+FLUSH PRIVILEGES;
+SHOW DATABASES;

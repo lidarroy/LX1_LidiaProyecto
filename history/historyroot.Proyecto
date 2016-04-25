@@ -1,0 +1,34 @@
+poweroff 
+service apache2 restart 
+exit
+ls -la
+exit
+wget http://ftp.drupal.org/files/projects/drupal-7.32.tar.gz
+ls -la
+rm drupal-7.32.tar.gz 
+ls --la
+ls -la
+wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+tar xzvf drupal*
+cd drupal*
+exit
+cd drupal*
+sudo rsync -avz . /var/www/html/
+cd /var/www/html/
+ls --la
+ls -la
+exit
+mkdir /var/www/html/sites/default/files
+cp /var/www/html/sites/default/default.settings.php /var/www/html/sites/default/settings.php
+chmod 664 /var/www/html/sites/default/settings.php 
+exit
+mysql -u root -p
+exit
+mysql -u root -p
+service mysql reload
+service mysql start 
+service mysql status
+exit
+ls -la
+cp .mysql_history /var/www/LX1_Lidia/
+exit
