@@ -1,0 +1,577 @@
+    1  sudo apt-get install apache2
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  service apache2 status
+    5  clear
+    6  sudo apt-get install nmap
+    7  sudo apt-get install tree
+    8  sudo apt-get install vim
+    9  clear
+   10  nmap 10.0.8.14
+   11  sudo apt-get install mysql-server php5 apache2 php5-mysql
+   12  service mysql status
+   13  service php5 status
+   14  clear
+   15  sudo apt-get install git-all 
+   16  cleat
+   17  clear
+   18  sudo apt-get install mysql-server-php5 mysql
+   19  sudo mysql_install_db 
+   20  sudo mysql_secure_installation 
+   21  clear
+   22  sudo apt-get install libapache2-mod-php5 php5 php5-mcrypt
+   23  cd /etc/apache2/
+   24  cd mods-enabled/
+   25  vim dir.conf 
+   26  cat dir.conf 
+   27  vim dir.conf 
+   28  sudo vim dir.conf 
+   29  cat dir.conf 
+   30  clear
+   31  sudo service apache2 restart 
+   32  cd ../../..
+   33  sudo service apache2 restart 
+   34  service apache2 restart 
+   35  clear
+   36  service apache2 status
+   37  cd /var/www/html/
+   38  ls -la
+   39  sudo vim info.php
+   40  ls -la
+   41  tree
+   42  sudo rm /var/www/html/info.php 
+   43  ls -la
+   44  tree
+   45  cd ../../..
+   46  pwd
+   47  clear
+   48  sudo service mysql start
+   49  mysql -u root -p
+   50  SHOW DATABASE lidiadb;
+   51  mysql -u root -p
+   52  cd /etc/php5/apache2/
+   53  ls -la
+   54  vim php.ini 
+   55  sudo vim php.ini 
+   56  sudo vim php.ini 
+   57  sudo a2enmod rewrite
+   58  cd ../../..
+   59  cd /etc/apache2/
+   60  ls -la
+   61  cd sites-enabled/
+   62  ls  -la
+   63  sudo vim 000-default.conf 
+   64  cd ../../..
+   65  sudo mkdir -p /var/www/protecto.com/public_html
+   66  whoami
+   67  sudo chown -R $SYSADMIN:$SYSADMIN /var/www/protecto.com/public_html/
+   68  ls  -la
+   69  cd /var/www/
+   70  ls -la
+   71  cd protecto.com/
+   72  ls -la
+   73  cd public_html/
+   74  ls -la
+   75  cd ..
+   76  sudo chmod -R 755 /var/www/*
+   77  ls -la
+   78  cd -var
+   79  cd /var/
+   80  ls -la
+   81  cd www/
+   82  ls -la
+   83  cd html/
+   84  ls -la
+   85  cp index.html /var/www/protecto.com/
+   86  sudo cp index.html /var/www/protecto.com/public_html/
+   87  ls -la
+   88  cd ..
+   89  cd protecto.com/
+   90  ls -la
+   91  tree
+   92  cd ../../..
+   93  pwd
+   94  cd /home/
+   95  wget
+   96  wget 
+   97  exit
+   98  clear
+   99  ip addr
+  100  sudo shutdow now
+  101  poweroff 
+  102  sudo shutdown now
+  103  nmap 10.0.8.14
+  104  service apache2 status
+  105  service mysql status
+  106  clear
+  107  sudo wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+  108  ls -la
+  109  sudo cp drupal-7.43.tar.gz /var/www/html/
+  110  cd /var/www/html/
+  111  ls -la
+  112  cd ..
+  113  ls -la
+  114  sudo mkdir drupal
+  115  ls -la
+  116  cd html/
+  117  ls  -la
+  118  sudo mv drupal-7.43.tar.gz /var/www/drupal/
+  119  ls -la
+  120  cd ..
+  121  cd drupal/
+  122  tree
+  123  tar -zxvf drupal-7.43.tar.gz 
+  124  cd ../../..
+  125  cd /var/
+  126  cd www/
+  127  ls -la
+  128  cd html/
+  129  ls
+  130  cd ..
+  131  cd protecto.com/public_html/
+  132  cd ..
+  133  ls
+  134  cd ..
+  135  cd drupal/
+  136  ls -la
+  137  sudo tar -zxvf drupal-7.43.tar.gz 
+  138  ls -la
+  139  cd drupal-7.43/
+  140  ls -la
+  141  cd sites/
+  142  ls -la
+  143  cd default/
+  144  ls -la
+  145  cd ../..
+  146  cd ..
+  147  ls -la
+  148  cd html/
+  149  ls -la
+  150  cd ..
+  151  cd protecto.com/
+  152  ls -la
+  153  cd public_html/
+  154  ls  -la
+  155  cd ..
+  156  tree
+  157  clear
+  158  ls -la
+  159  cd drupal/
+  160  ls -la
+  161  cd drupal-7.43/
+  162  ls -la
+  163  cd sites/
+  164  ls -la
+  165  cd default/
+  166  ls -la
+  167  cd cd ..
+  168  cd ../../..
+  169  cd ..
+  170  ls -la
+  171  cd protecto.com/public_html/
+  172  cd ..
+  173  ls -la
+  174  cd public_html/
+  175  ls
+  176  sudo mkdir drupal
+  177  ls -la
+  178  cd ..
+  179  ls -la
+  180  cd ..
+  181  ls -la
+  182  cd ww
+  183  cd www/
+  184  ls -la
+  185  cd drupal/
+  186  ls -la
+  187  clear
+  188  ls -la
+  189  sudo mv drupal-7.43 /var/www/
+  190  cd ../..
+  191  cd www/
+  192  ls -la
+  193  sudo mv drupal-7.43/ /var/www/protecto.com/public_html/
+  194  cd protecto.com/public_html/
+  195  ls -la
+  196  sudo cp drupal-7.43/ /var/www/protecto.com/public_html/drupal
+  197  ls -la
+  198  cd drupal
+  199  ls -la
+  200  sudo mkdir
+  201  ls -la
+  202  cd ..
+  203  ls -la
+  204  cd ..
+  205  ls -la
+  206  cd ..
+  207  ls -la
+  208  tree
+  209  clear
+  210  tree www
+  211  www tree
+  212  clear
+  213  ls -la
+  214  cd protecto.com/
+  215  ls -la
+  216  sudo mv public_html/ /var/www/html/
+  217  ls -la
+  218  cd ..
+  219  ls -la
+  220  cd html/
+  221  ls -la
+  222  cd public_html/
+  223  ls -la
+  224  cd ..
+  225  ls -la
+  226  sudo mv public_html/ /var/www/
+  227  cd ..
+  228  ls -la
+  229  cd public_html/
+  230  clear
+  231  vim info.php
+  232  sudo vim info.php
+  233  cat info.php 
+  234  ls -la
+  235  exit
+  236  ip addr
+  237  sudo shutdown  now
+  238  exit
+  239  ip addr
+  240  sudo shutdown now
+  241  sudo apt-get update
+  242  sudo apt-get install php5-gd php5-curl libssh2-php
+  243  sudo vim /etc/php5/apache2/php.ini
+  244  cd /etc/
+  245  ls la
+  246  ls -la
+  247  cd apache2/
+  248  ls -a
+  249  ls -la
+  250  cd ..
+  251  cd php5/
+  252  ls -la
+  253  cd apache2/
+  254  ls -la
+  255  cd conf.d/
+  256  ls -la
+  257  cd ..
+  258  ls -l
+  259  cd ..
+  260  ls -la
+  261  cd ..
+  262  ls -la
+  263  ls -sudo vim adduser.conf 
+  264  sudo vim adduser.conf 
+  265  sudo su -
+  266  cd ..
+  267  cd /var/
+  268  cd www/html/
+  269  cd ..
+  270  sudo chown -R $USER:$USER /var/www/html/*
+  271  ls -la
+  272  sudo chown -R $USER:$USER /var/www/html/
+  273  ls -la
+  274  sudo chown -R root:$user /var/www/html/
+  275  ls -la
+  276  sudo chown -R $USER:$USER /var/www/html/
+  277  ls -la
+  278  cd ..
+  279  sudo chmod -R 755 /var/www/
+  280  ls -la
+  281  cd www/
+  282  ls -la
+  283  cd html/
+  284  ls -la
+  285  cd ..
+  286  cd /etc/apache2/
+  287  ls -la
+  288  cd sites-available/
+  289  ls -la
+  290  sudo cp 000-default.conf /etc/apache2/sites-available/lidia.com.conf
+  291  sudo vim /etc/apache2/sites-available/lidia.com.conf 
+  292  sudo a2ensite lidia.com.conf 
+  293  sudo service apache2 reload
+  294  sudo vim /etc/host
+  295  sudo service apache2 reload 
+  296  cd ..
+  297  sudo su -
+  298  mkdir /var/www/html/sites/default/files
+  299  sudo su -
+  300  sudo chown -R :www-data /var/www/html/*
+  301  ls -la
+  302  cd /var/www/
+  303  ls -la
+  304  cd html/
+  305  ls -la
+  306  cd sites/
+  307  ls -la
+  308  cd default/
+  309  ls -la
+  310  sudo chmod 664 -R :www-data /var/www/html/*
+  311  ls -la
+  312  cd ..
+  313  ls -la
+  314  cd ..
+  315  sudo chmod 777 -R :www-data /var/www/html/*
+  316  cd ..
+  317  ls -la
+  318  sudo chmod -R 755 /var/www/
+  319  cd  ..
+  320  ls .la
+  321  ls -la
+  322  cd www/
+  323  ls -la
+  324  cd html/
+  325  ls -la
+  326  cd sites/
+  327  ls -la
+  328  cd default/
+  329  ls -la
+  330  sudo chmod 664  /var/www/html/sites/default/settings.php 
+  331  ls -la
+  332  cd ../../../..
+  333  cd ..
+  334  service apache2 status
+  335  cd /etc/apache2/sites-available/
+  336  ls -la
+  337  sudo vim 000-default.conf 
+  338  sudo vim lidia.com.conf 
+  339  cd ../../..
+  340  sudo service apache2 reload
+  341  service apache2 status
+  342  sudo chmod 777 /var/www/html/sites/default/settings.php 
+  343  sudo service apache2 restart 
+  344  clear
+  345  php -m
+  346  sudo apt-get install php-mbstring
+  347  sudo service httdp restart
+  348  clear
+  349  cd /var/www/html/
+  350  ls -la
+  351  cd sites/default/
+  352  ls -la
+  353  sudo chmod 755  /var/www/html/sites/default/settings.php 
+  354  ls -la
+  355  sudo service apache2 reload 
+  356  service apache2 status
+  357  php m
+  358  php -m
+  359  clear
+  360  sudo chmod 777  /var/www/html/sites/default/settings.php 
+  361  ls -la
+  362  sudo chmod 777  /var/www/html/sites/default/files/
+  363  ls -la
+  364  cd ../../..
+  365  cd ../..
+  366  service mysql status
+  367  service mysql start
+  368  sudo su -
+  369  sudo apt-get install mysql-server
+  370  sudo mysql_install_db 
+  371  sudo mysql_secure_installation 
+  372  sudo su -
+  373  sudo service mysql restart
+  374  nmap 10.0.8.14
+  375  sudo service mysql status
+  376  sudo service apache2 reload 
+  377  ls -la
+  378  cd /etc/apache2/
+  379  ls -la
+  380  cd sites-available/
+  381  ls -la
+  382  cd ..
+  383  ls -la
+  384  cd /var/www/
+  385  ls -la
+  386  cd html/
+  387  ls -la
+  388  cd  sites/
+  389  ls -la
+  390  cd default/
+  391  ls -la
+  392  cd  files/
+  393  ls -la
+  394  cd ../../..
+  395  cd ..
+  396  cd /etc/apache2/sites-available/
+  397  ls -la
+  398  sudo cp lidia.com.conf /var/www/html/sites/
+  399  sudo cp 000-default.conf /var/www/html/sites/
+  400  cd ../../..
+  401  cd /var/www/html/sites/
+  402  ls -la
+  403  sudo mkdir www.lidia.com
+  404  ls -la
+  405  cd default/
+  406  ls -la
+  407  sudo cp settings.php /var/www/html/sites/www.lidia.com/
+  408  ls -la
+  409  rm settings.php 
+  410  sudo rm settings.php 
+  411  ls -la
+  412  sudo cp default.settings.php /var/www/html/sites/default/settings.php
+  413  ls -la
+  414  sudo chmod 777  /var/www/html/sites/default/settings.php 
+  415  ls -la
+  416  cd ..
+  417  ls -la
+  418  sudo chmod 777  /var/www/html/sites/www.lidia.com/settings.php 
+  419  sudo chown -R :www-data /var/www/html/*
+  420  ls -la
+  421  cd www.lidia.com/
+  422  ls -la
+  423  cd ..
+  424  ls  -la
+  425  sudo mv www.lidia.com/ /var/www/
+  426  ls -la
+  427  cd ..
+  428  ls -la
+  429  cd ..
+  430  cd /var/
+  431  ls -la
+  432  cd www/
+  433  ls -la
+  434  sudo mkdir LX1_Lidia
+  435  ls -la
+  436  cd LX1_Lidia/
+  437  git init
+  438  cd ..
+  439  sudo chown $USER:$USER /var/www/
+  440  ls -la
+  441  cd www/
+  442  ls -la
+  443  sudo chown $USER:$USER /var/www/LX1_Lidia/
+  444  ls -la
+  445  cd LX1_Lidia/
+  446  git init
+  447  ls -la
+  448  git status
+  449  cd ..
+  450  ls -la
+  451  cd /etc/apache2/sites-available/
+  452  ls -la
+  453  sudo vim lidia.com.conf 
+  454  sudo service apache2 reload
+  455  sudo vim 000-default.conf 
+  456  celar
+  457  clear
+  458  cd ../../..
+  459  cd /var/www/
+  460  ls -la
+  461  cd LX1_Lidia/
+  462  git init
+  463  git  status
+  464  ls -la
+  465  tree
+  466  cd ..
+  467  tree
+  468  cd LX1_Lidia/
+  469  tree
+  470  clear
+  471  git add history
+  472  git commit -m "Servidor LAMP-Archivos Proyecto"
+  473  git config --global user.mail "lidia@arroyovargas.com"
+  474  git config --global user.name "Lidia Arroyo"
+  475  git status
+  476  git commit -m "Servidor LAMP-Archivos Proyecto"
+  477  git  config 
+  478  git config --global user.name "Lidia Arroyo"
+  479  git config --global user.mail "lidia@arroyovargas.com"
+  480  git status
+  481  history
+  482  git config --global user.mail "lidia@arroyovargas.com"
+  483  cat ~/.gitconfig
+  484  ls -la
+  485  tree .git/
+  486  cat $HOSTNAME
+  487  sudo cat $HOSTNAME
+  488  echo $HOSTNAME
+  489  history > history.$HOSTNAME
+  490  ls  -la
+  491  mkdir history
+  492  mv history.Proyecto history
+  493  ls -la
+  494  tree
+  495  git status 
+  496  git add history/
+  497  git status 
+  498  git commit -m "Proyecto - Archivos"
+  499  git config --global user.mail "lidia@arroyovargas.com"
+  500  git config --global user.name "Lidia Arroyo"
+  501  git status 
+  502  git commit --amend --reset-author 
+  503  git log
+  504  sudo apt-get install gitl
+  505  sudo apt-get install gitk
+  506  git log
+  507  history
+  508  history  | grep mv
+  509  gitk
+  510  git status
+  511  netstat -atunpl
+  512  git remote add origin https://lidarroy/LidiaProyecto.git
+  513  git remote -v
+  514  git push -u repo.git master
+  515  git push -u origin.git master
+  516  git push -u origin master
+  517  git push -u origin.git master
+  518  clear
+  519  git status
+  520  git commit -m "Proyecto LAMP-Archivos"
+  521  git  config --global user.email "lidia@arroyovargas.com"
+  522  git  config --global user.name "Lidia Arroyo"
+  523  git config
+  524  clear
+  525  git commit -m "Proyecto Servidor LAMP"
+  526  git  remote add origin https://github.com/lidarroy/LidiaProyecto.git
+  527  git push -u origin master
+  528  sudo git push -u origin master
+  529  git  remote add origin https://github.com/lidarroy/LX1_lidia.git
+  530  sudo git push -u origin master
+  531  git add history/history.Proyecto 
+  532  ls -la
+  533  cd ..
+  534  ls  -la
+  535  sudo rm -R  LX1_Lidia/
+  536  ls -la
+  537  cd ..
+  538  ls -la
+  539  cd /home/
+  540  ls -la
+  541  cd sysadmin/
+  542  ls -la
+  543  sudo rm .gitconfig 
+  544  ls -la
+  545  cd ..
+  546  ls -la
+  547  cd /var/
+  548  ls -la
+  549  cd www/
+  550  ls  -la
+  551  mkdir LX1_Lidia
+  552  ls -la
+  553  cd LX1_Lidia/
+  554  git  init
+  555  git init
+  556  git status
+  557  git add history
+  558  git commit -m "Proyecto LAMP"
+  559  git status
+  560  git config
+  561  clear
+  562  history 
+  563  git add history
+  564  mkdir history
+  565  ls -la
+  566  tree
+  567  git status
+  568  git commit -m "Proyecto"
+  569  ls ~
+  570  cat ~/.gitconfig 
+  571  git  config --global user.email "lidarroy@hotmail.com"
+  572  git  config --global user.name "Lidia Arroyo"
+  573  cat ~/.gitconfig 
+  574  git commit -m "Proyecto"
+  575  tree ./git
+  576  tree .git/
+  577  history > history.$HOSTNAME
